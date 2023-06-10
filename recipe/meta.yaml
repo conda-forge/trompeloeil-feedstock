@@ -1,13 +1,13 @@
 {% set name = "trompeloeil" %}
-{% set version = "43" %}
+{% set version = "44" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://github.com/rollbear/trompeloeil/archive/v{{ version }}.tar.gz
-  sha256: 86a0afa2e97347202a0a883ab43da78c1d4bfff0d6cb93205cfc433d0d9eb9eb
+  sha256: 004877db6ba22f24c7867e112e081eeb68858122f55ebe7c7dd9d8d9e3b46c88
 
 build:
   number: 0
